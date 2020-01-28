@@ -37,6 +37,33 @@
 </nav>
 
 
+      
+          <div style="width:50%;" class="container from-group">
+          
+        <br><br>
+        <h2>Register user</h2>
+          <form>
+            <label for="exampleFormControlInput1">user</label>
+            <input  type="email" class="input form-control" name="mail" placeholder="e-mail" required="on" autocomplete="off">
+            <label for="exampleFormControlInput2">password</label>
+            <input id="password" type="password" class="input form-control"  name="password" placeholder="password" required="on" autocomplete="off">
+
+              <div class="form-check mb-2 mr-sm-2">
+                <br>
+                  <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                  <label class="form-check-label" for="inlineFormCheck">
+                  Remember me
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary mb-2">iniciar sesion</button>
+              <a href="index">Login in</a>
+          </form>
+
+
+        </div>
+
+
 
 
 

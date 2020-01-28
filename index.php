@@ -48,7 +48,8 @@
       <section>
         <br><br>
         <div style="width:50%;" class="container from-group">
-        
+     
+        <h2>Login in</h2>
           <form>
             <label for="exampleFormControlInput1">user</label>
             <input  type="email" class="input form-control" name="mail" placeholder="e-mail" required="on" autocomplete="off">
