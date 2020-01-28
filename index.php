@@ -52,9 +52,9 @@
         <h2>Login in</h2>
           <form>
             <label for="exampleFormControlInput1">user</label>
-            <input  type="email" class="input form-control" name="mail" placeholder="e-mail" required="on" autocomplete="off">
+            <input id="user"  type="email" class="input form-control" name="mail" placeholder="e-mail" required="on" autocomplete="off">
             <label for="exampleFormControlInput2">password</label>
-            <input id="password" type="password" class="input form-control"  name="password" placeholder="password" required="on" autocomplete="off">
+            <input id="password" disabled type="password" class="input form-control"  name="password" placeholder="password" required="on" autocomplete="off">
 
               <div class="form-check mb-2 mr-sm-2">
                 <br>
@@ -62,9 +62,10 @@
                   <label class="form-check-label" for="inlineFormCheck">
                   Remember me
                 </label>
+                <a href="#">Do not remember your password?</a>
               </div>
 
-              <button type="submit" class="btn btn-primary mb-2">iniciar sesion</button>
+              <button type="submit" class="btn btn-primary mb-2">Log in</button>
               <a href="newuser">Create new Account</a>
           </form>
 
