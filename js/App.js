@@ -28,9 +28,7 @@ $( "#password" ).prop( "disabled", true );
 
 
 document.addEventListener("click", function(){
-
-
-	if (document.getElementById('user').value !== ""){
+   if (document.getElementById('user').value !== ""){
     
     	console.log("esta vacio");
         $( "#password" ).prop( "disabled", false );
